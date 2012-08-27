@@ -40,7 +40,7 @@
 				
 					<!-- Site Description & Title -->
 					<hgroup id="header">
-						<h1><a href="<?php echo site_url(); ?>"><?php bloginfo('title'); ?></a></h1>
+						<h1><a href="<?php echo site_url(); ?>"><img src="<?php get_template_directory(); ?>/images/logo.png" /></a></h1>
 						<h4 class="subheader"><?php bloginfo('description'); ?></h4>
 					</hgroup>
 
