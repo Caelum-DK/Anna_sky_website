@@ -41,12 +41,11 @@
 					<!-- Site Description & Title -->
 					<hgroup id="header">
 						<h1 id="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php echo get_bloginfo('name'); ?>" title="<?php echo get_bloginfo('name'); ?>" /></a></h1>
-						<h4 class="subheader"><?php bloginfo('description'); ?></h4>
 					</hgroup>
 
 					<!-- Navigation --> 					
  				    <?php wp_nav_menu( array( 'theme_location' => 'header-menu','menu_class' => 'nav-bar', 'container' => 'nav') ); ?>
-				
+					
 				</div>
 				<!-- Header Column -->
 				

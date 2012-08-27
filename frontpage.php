@@ -7,7 +7,7 @@ Template Name: Frontpage
 get_header(); ?>
 
 <div class="row">
-<div class="eight columns centered">
+<div class="twelve columns centered">
 
 <div id="featured">
 
