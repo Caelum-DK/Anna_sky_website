@@ -21,10 +21,11 @@ License URI: http://www.opensource.org/licenses/mit-license.php
 	border-top: 1px solid #999999;
 }
 
-.grim {
-text-align:center;
-
-}
-.svin li {
-	display: inline; 
+footer {
+	border-top: 1px solid #999; border-bottom: 1px solid #999;
+	min-height: 75px;
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+	text-align: center;
+	padding-top: 20px;
 }

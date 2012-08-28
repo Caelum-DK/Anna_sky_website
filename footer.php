@@ -4,7 +4,7 @@
 	<!-- Footer -->
 	<footer class="row">
 	
-		<div class="twelve columns"><hr></div>
+		
 	
 			<div class="row">
 			
