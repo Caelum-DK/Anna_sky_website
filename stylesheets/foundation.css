@@ -73,9 +73,11 @@
 /* Custom font to navbar   */	
 	@font-face {  
   		font-family: Questrial;  
-  		src: url(/fonts/Questrial-Regular.otf) format("opentype");  }  
+  		src: url('fonts/Questrial-Regular.eot');
+			 src: local('☺'), url('fonts/Questrial-Regular.ttf') format('truetype'), url('fonts/Questrial-Regular.svg#webfont') format('svg');
+
+  		  }  
  	
-	
 	body { background: #fff; font-family: Georgia, Times, "Times New Roman", serif; font-size: 13px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
 	
 
