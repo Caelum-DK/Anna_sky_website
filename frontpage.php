@@ -31,10 +31,10 @@ get_header(); ?>
 			</h2>
 			
 			<!-- Display the Page's Content in a div box. -->
-			<div class="entry five columns centered">
+			<div class="entry five columns first-child">
 				<?php the_content(); ?>
 			</div>
-			<div class="entry five columns centered">
+			<div class="entry five columns first-child">
 				<?php the_field( "2nd_row" ); ?>
 			</div>
 		</div>
