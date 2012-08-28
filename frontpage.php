@@ -34,7 +34,8 @@ get_header(); ?>
 			<div class="entry">
 				<?php the_content(); ?>
 			</div>
-		
+			
+			<?php the_field( "2nd_row" ); ?>
 		</div>
 		<!-- Closes the first div -->
 	

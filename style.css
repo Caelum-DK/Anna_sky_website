@@ -34,3 +34,7 @@ footer {
 	color:black;
 	text-transform: uppercase;
 } 
+
+#featured {
+	margin-bottom: 40px;
+}
