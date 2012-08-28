@@ -31,11 +31,13 @@ get_header(); ?>
 			</h2>
 			
 			<!-- Display the Page's Content in a div box. -->
-			<div class="entry">
+			<div class="entry six columns">
 				<?php the_content(); ?>
 			</div>
-			
-			<?php the_field( "2nd_row" ); ?>
+			<div class="one"></div>
+			<div class="entry six columns">
+				<?php the_field( "2nd_row" ); ?>
+			</div>
 		</div>
 		<!-- Closes the first div -->
 	
