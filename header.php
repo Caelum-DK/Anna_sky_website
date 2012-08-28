@@ -35,9 +35,7 @@
 			
 				<!-- Header Column -->
 				<div class="twelve columns" id="access" role="navigation">
-					
-					<span id="skipnav" class="show-on-phones"><a href="#content">Skip to Content?</a></span>
-				
+									
 					<!-- Site Description & Title -->
 					<hgroup id="header">
 						<h1 id="logo"><a href="<?php echo site_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt="<?php echo get_bloginfo('name'); ?>" title="<?php echo get_bloginfo('name'); ?>" /></a></h1>
