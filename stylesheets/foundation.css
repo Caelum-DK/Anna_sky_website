@@ -72,8 +72,8 @@
 
 /* Custom font to navbar   */	
 	@font-face {  
-  		font-family: Questrial ;  
-  		src: url( /fonts/Questrial-Regular.otf) format("opentype");  }  
+  		font-family: Questrial;  
+  		src: url(/fonts/Questrial-Regular.otf) format("opentype");  }  
  	
 	
 	body { background: #fff; font-family: Georgia, Times, "Times New Roman", serif; font-size: 13px; line-height: 18px; color: #555; position: relative; -webkit-font-smoothing: antialiased; }
@@ -481,7 +481,7 @@
 	-------------------------------------------------- */
 	
 	.nav-bar { min-height: 48px; background: #fff; margin: 20px auto 30px; border-top: 1px solid #999; border-bottom: 1px solid #999; text-align: center;}
-	.nav-bar li { font-family: Questrial , verdana, helvetica, sans-serif;  } 
+	.nav-bar li { font-family: Questrial , verdana, helvetica, sans-serif; text-transform: uppercase; } 
 	.nav-bar>li { display: inline; position: relative; padding: 0; margin: 0 30px 0 0; line-height: 48px; }
 	.nav-bar>li>a { position: relative; font-size: 14px; padding: 0 20px; text-decoration: none; font-size: 15px; font-size: 1.5rem; }
 	.nav-bar>li>input { margin: 0 16px; }
