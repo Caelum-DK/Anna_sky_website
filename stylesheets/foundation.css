@@ -73,7 +73,7 @@
 /* Custom font to navbar   */	
 	@font-face {  
   		font-family: Questrial;  
-  		src: url('stylesheets/fonts/Questrial-Regular.eot');
+  		src: url('fonts/Questrial-Regular.eot');
 			 src: local('☺'), url('stylesheets/fonts/Questrial-Regular.ttf') format('truetype'), url('stylesheets/fonts/Questrial-Regular.svg#webfont') format('svg');
 
   		  }  
